@@ -1,0 +1,28 @@
+{
+  "name": "heat-ai",
+  "version": "1.0.0",
+  "description": "Urban Heat Mitigation Decision Support System (Nagpur Prototype) - Modular Architecture",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "powershell -Command \"cd backend; .\\mvnw.cmd spring-boot:run\"",
+    "dev:ai": "powershell -Command \"cd ai; python run.py\"",
+    "test:ai": "powershell -Command \"cd ai; python tests/run_tests.py\"",
+    "test:xai": "powershell -Command \"cd xai; python tests/test_xai.py\"",
+    "test:backend": "powershell -Command \"cd backend; .\\mvnw.cmd test\"",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "powershell -Command \"cd backend; .\\mvnw.cmd package -DskipTests\"",
+    "dev:server-node": "npm --prefix server run dev"
+  },
+  "keywords": [
+    "urban-heat-island",
+    "decision-support-system",
+    "nagpur",
+    "explainable-ai",
+    "shap",
+    "fastapi",
+    "spring-boot",
+    "react"
+  ],
+  "author": "Mohit Rajurkar",
+  "license": "ISC"
+}

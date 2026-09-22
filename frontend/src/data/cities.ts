@@ -1,0 +1,102 @@
+import { City } from "../types";
+
+export const SUPPORTED_CITIES: City[] = [
+  {
+    id: "nagpur",
+    name: "Nagpur",
+    state: "Maharashtra",
+    country: "India",
+    center: [21.1458, 79.0882],
+    zoom: 12,
+    isPrototype: true,
+    totalWards: 217,
+    totalGridCells: 217,
+    avgLST: 36.8,
+    highRiskZonesCount: 28,
+    populationCovered: "24.6 L"
+  },
+  {
+    id: "mumbai",
+    name: "Mumbai",
+    state: "Maharashtra",
+    country: "India",
+    center: [19.0760, 72.8777],
+    zoom: 12,
+    isPrototype: false,
+    totalWards: 227,
+    totalGridCells: 340,
+    avgLST: 35.2,
+    highRiskZonesCount: 34,
+    populationCovered: "1.25 Cr"
+  },
+  {
+    id: "pune",
+    name: "Pune",
+    state: "Maharashtra",
+    country: "India",
+    center: [18.5204, 73.8567],
+    zoom: 12,
+    isPrototype: false,
+    totalWards: 164,
+    totalGridCells: 280,
+    avgLST: 36.1,
+    highRiskZonesCount: 22,
+    populationCovered: "42.5 L"
+  },
+  {
+    id: "delhi",
+    name: "Delhi (NCR)",
+    state: "Delhi",
+    country: "India",
+    center: [28.6139, 77.2090],
+    zoom: 11,
+    isPrototype: false,
+    totalWards: 250,
+    totalGridCells: 520,
+    avgLST: 41.5,
+    highRiskZonesCount: 58,
+    populationCovered: "1.90 Cr"
+  },
+  {
+    id: "bengaluru",
+    name: "Bengaluru",
+    state: "Karnataka",
+    country: "India",
+    center: [12.9716, 77.5946],
+    zoom: 12,
+    isPrototype: false,
+    totalWards: 198,
+    totalGridCells: 380,
+    avgLST: 33.8,
+    highRiskZonesCount: 19,
+    populationCovered: "84.4 L"
+  },
+  {
+    id: "hyderabad",
+    name: "Hyderabad",
+    state: "Telangana",
+    country: "India",
+    center: [17.3850, 78.4867],
+    zoom: 12,
+    isPrototype: false,
+    totalWards: 150,
+    totalGridCells: 310,
+    avgLST: 38.2,
+    highRiskZonesCount: 31,
+    populationCovered: "68.1 L"
+  },
+  {
+    id: "ahmedabad",
+    name: "Ahmedabad",
+    state: "Gujarat",
+    country: "India",
+    center: [23.0225, 72.5714],
+    zoom: 12,
+    isPrototype: false,
+    totalWards: 192,
+    totalGridCells: 330,
+    avgLST: 40.8,
+    highRiskZonesCount: 42,
+    populationCovered: "56.3 L"
+  }
+];
