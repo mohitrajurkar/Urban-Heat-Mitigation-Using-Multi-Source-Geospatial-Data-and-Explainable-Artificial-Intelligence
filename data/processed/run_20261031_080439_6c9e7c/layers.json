@@ -1,0 +1,249 @@
+{
+ "lst": {
+  "label": "Land Surface Temperature",
+  "unit": "\u00b0C",
+  "cmap": "RdYlBu_r",
+  "bounds": [
+   78.95712735892,
+   21.035748717228135,
+   79.20546157892372,
+   21.246598526665252
+  ],
+  "vmin": 31.279997062683105,
+  "vmax": 47.643584442138675,
+  "stops": [
+   {
+    "value": 31.28,
+    "color": "#313695"
+   },
+   {
+    "value": 34.553,
+    "color": "#74add1"
+   },
+   {
+    "value": 37.825,
+    "color": "#e0f3f8"
+   },
+   {
+    "value": 41.098,
+    "color": "#fee090"
+   },
+   {
+    "value": 44.371,
+    "color": "#f46d43"
+   },
+   {
+    "value": 47.644,
+    "color": "#a50026"
+   }
+  ]
+ },
+ "ndvi": {
+  "label": "NDVI",
+  "unit": "",
+  "cmap": "RdYlGn",
+  "bounds": [
+   78.95712735892,
+   21.035748717228135,
+   79.20546157892372,
+   21.246598526665252
+  ],
+  "vmin": 0.12078794464468956,
+  "vmax": 0.7735552608966825,
+  "stops": [
+   {
+    "value": 0.121,
+    "color": "#a50026"
+   },
+   {
+    "value": 0.251,
+    "color": "#f46d43"
+   },
+   {
+    "value": 0.382,
+    "color": "#fee08b"
+   },
+   {
+    "value": 0.512,
+    "color": "#d9ef8b"
+   },
+   {
+    "value": 0.643,
+    "color": "#66bd63"
+   },
+   {
+    "value": 0.774,
+    "color": "#006837"
+   }
+  ]
+ },
+ "ndbi": {
+  "label": "NDBI",
+  "unit": "",
+  "cmap": "YlOrBr",
+  "bounds": [
+   78.95712735892,
+   21.035748717228135,
+   79.20546157892372,
+   21.246598526665252
+  ],
+  "vmin": -0.33910617530345916,
+  "vmax": 0.1437765643000602,
+  "stops": [
+   {
+    "value": -0.339,
+    "color": "#ffffe5"
+   },
+   {
+    "value": -0.243,
+    "color": "#feeba2"
+   },
+   {
+    "value": -0.146,
+    "color": "#febb47"
+   },
+   {
+    "value": -0.049,
+    "color": "#f07818"
+   },
+   {
+    "value": 0.047,
+    "color": "#b84203"
+   },
+   {
+    "value": 0.144,
+    "color": "#662506"
+   }
+  ]
+ },
+ "ndwi": {
+  "label": "NDWI",
+  "unit": "",
+  "cmap": "Blues",
+  "bounds": [
+   78.95712735892,
+   21.035748717228135,
+   79.20546157892372,
+   21.246598526665252
+  ],
+  "vmin": -0.7111121773719787,
+  "vmax": -0.18338831663131716,
+  "stops": [
+   {
+    "value": -0.711,
+    "color": "#f7fbff"
+   },
+   {
+    "value": -0.606,
+    "color": "#d0e1f2"
+   },
+   {
+    "value": -0.5,
+    "color": "#94c4df"
+   },
+   {
+    "value": -0.394,
+    "color": "#4a98c9"
+   },
+   {
+    "value": -0.289,
+    "color": "#1764ab"
+   },
+   {
+    "value": -0.183,
+    "color": "#08306b"
+   }
+  ]
+ },
+ "albedo": {
+  "label": "Surface Albedo",
+  "unit": "",
+  "cmap": "cividis",
+  "bounds": [
+   78.95712735892,
+   21.035748717228135,
+   79.20546157892372,
+   21.246598526665252
+  ],
+  "vmin": 0.14846923053264618,
+  "vmax": 0.21292718648910522,
+  "stops": [
+   {
+    "value": 0.148,
+    "color": "#00224e"
+   },
+   {
+    "value": 0.161,
+    "color": "#35456c"
+   },
+   {
+    "value": 0.174,
+    "color": "#666970"
+   },
+   {
+    "value": 0.187,
+    "color": "#948e77"
+   },
+   {
+    "value": 0.2,
+    "color": "#c8b866"
+   },
+   {
+    "value": 0.213,
+    "color": "#fee838"
+   }
+  ]
+ },
+ "lulc": {
+  "label": "Land Use / Land Cover",
+  "unit": "",
+  "bounds": [
+   78.95712735892,
+   21.035748717228135,
+   79.20546157892372,
+   21.246598526665252
+  ],
+  "categories": [
+   {
+    "value": 1,
+    "label": "Water",
+    "color": "#2b7bba"
+   },
+   {
+    "value": 2,
+    "label": "Dense Vegetation / Forest",
+    "color": "#1b5e20"
+   },
+   {
+    "value": 3,
+    "label": "Urban Green / Sparse Vegetation",
+    "color": "#66bb6a"
+   },
+   {
+    "value": 4,
+    "label": "Agriculture / Cropland",
+    "color": "#d4c26a"
+   },
+   {
+    "value": 5,
+    "label": "Barren / Open Land",
+    "color": "#c8a27a"
+   },
+   {
+    "value": 6,
+    "label": "Residential Built-up",
+    "color": "#e57373"
+   },
+   {
+    "value": 7,
+    "label": "Commercial / Dense Built-up",
+    "color": "#b71c1c"
+   },
+   {
+    "value": 8,
+    "label": "Industrial",
+    "color": "#6d4c41"
+   }
+  ]
+ }
+}

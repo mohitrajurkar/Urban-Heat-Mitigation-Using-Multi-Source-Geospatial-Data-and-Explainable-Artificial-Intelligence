@@ -1,0 +1,3 @@
+com\urbanheat\controller\SecurityWebTest.class
+com\urbanheat\security\JwtServiceTest.class
+com\urbanheat\service\CalculationsTest.class

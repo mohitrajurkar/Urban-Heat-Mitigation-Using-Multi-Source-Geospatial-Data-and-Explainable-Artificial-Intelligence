@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"name": "Nagpur study area (rectangular, approximate)", "is_demo": true}, "geometry": {"type": "Polygon", "coordinates": [[[78.96, 21.04], [79.2, 21.04], [79.2, 21.24], [78.96, 21.24], [78.96, 21.04]]]}}]}

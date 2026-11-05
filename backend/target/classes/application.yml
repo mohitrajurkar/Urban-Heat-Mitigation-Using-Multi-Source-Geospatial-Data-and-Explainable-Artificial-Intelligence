@@ -1,0 +1,80 @@
+server:
+  port: ${SERVER_PORT:8080}
+  compression:
+    enabled: true
+    mime-types: application/json,application/geo+json
+    min-response-size: 2048
+
+spring:
+  application:
+    name: urban-heat-backend
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5434/urban_heat?reWriteBatchedInserts=true}
+    username: ${DB_USERNAME:urbanheat}
+    password: ${DB_PASSWORD:urbanheat_dev_pw}
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 20000
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 250
+          time_zone: UTC
+        order_inserts: true
+        order_updates: true
+        default_batch_fetch_size: 200
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+  servlet:
+    multipart:
+      max-file-size: ${MAX_UPLOAD_SIZE:300MB}
+      max-request-size: ${MAX_UPLOAD_SIZE:300MB}
+  jackson:
+    default-property-inclusion: always
+    serialization:
+      write-dates-as-timestamps: false
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:change-me-local-demo-secret-key-at-least-32-bytes-long-0123456789}
+    expiration-minutes: ${JWT_EXPIRATION_MINUTES:720}
+  ai-service:
+    base-url: ${AI_SERVICE_URL:http://localhost:8001}
+    connect-timeout-seconds: 10
+    read-timeout-seconds: 900
+  demo:
+    auto-seed: ${DEMO_AUTO_SEED:true}
+    seed-users: ${DEMO_SEED_USERS:true}
+  cors:
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5174,http://127.0.0.1:5174,http://localhost:5173}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: alpha
+    tags-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    root: INFO
+    com.urbanheat: INFO
+    org.hibernate.SQL: WARN
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{36} - %msg%n"

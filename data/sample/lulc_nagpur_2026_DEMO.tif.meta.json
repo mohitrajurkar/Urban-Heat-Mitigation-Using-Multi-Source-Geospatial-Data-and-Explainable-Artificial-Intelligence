@@ -1,0 +1,27 @@
+{
+  "is_demo": true,
+  "is_real": false,
+  "note": "SYNTHETIC DEMONSTRATION DATA - not a real satellite/ground observation",
+  "generator": "app.geospatial.demo_data",
+  "seed": 20260418,
+  "dataset_id": "demo-lulc",
+  "name": "Land Use / Land Cover 2026 - Nagpur (synthetic demo)",
+  "data_type": "lulc",
+  "source": "Synthetic 8-class LULC map (scheme compatible with ESA WorldCover remapping)",
+  "collection_date": "2026-04-01",
+  "coverage": "Nagpur study area, 30 m, UTM 44N",
+  "file_format": "GeoTIFF",
+  "class_scheme": {
+    "1": "Water",
+    "2": "Dense Vegetation / Forest",
+    "3": "Urban Green / Sparse Vegetation",
+    "4": "Agriculture / Cropland",
+    "5": "Barren / Open Land",
+    "6": "Residential Built-up",
+    "7": "Commercial / Dense Built-up",
+    "8": "Industrial"
+  },
+  "lulc_mapping": null,
+  "file_name": "lulc_nagpur_2026_DEMO.tif",
+  "file_size": 89272
+}

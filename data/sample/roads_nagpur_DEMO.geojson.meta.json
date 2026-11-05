@@ -1,0 +1,16 @@
+{
+  "is_demo": true,
+  "is_real": false,
+  "note": "SYNTHETIC DEMONSTRATION DATA - not a real satellite/ground observation",
+  "generator": "app.geospatial.demo_data",
+  "seed": 20260418,
+  "dataset_id": "demo-roads",
+  "name": "Road network - Nagpur (synthetic demo)",
+  "data_type": "roads",
+  "source": "Synthetic radial/ring road network (OpenStreetMap-style GeoJSON)",
+  "collection_date": "2026-01-01",
+  "coverage": "Nagpur study area",
+  "file_format": "GeoJSON",
+  "file_name": "roads_nagpur_DEMO.geojson",
+  "file_size": 25721
+}

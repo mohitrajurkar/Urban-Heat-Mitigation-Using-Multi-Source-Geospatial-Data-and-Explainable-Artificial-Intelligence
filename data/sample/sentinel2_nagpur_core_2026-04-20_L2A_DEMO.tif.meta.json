@@ -1,0 +1,26 @@
+{
+  "is_demo": true,
+  "is_real": false,
+  "note": "SYNTHETIC DEMONSTRATION DATA - not a real satellite/ground observation",
+  "generator": "app.geospatial.demo_data",
+  "seed": 20260418,
+  "dataset_id": "demo-sentinel2",
+  "name": "Sentinel-2 MSI L2A subset - Nagpur core (synthetic demo)",
+  "data_type": "sentinel2",
+  "source": "Synthetic replica of a Copernicus Sentinel-2 L2A product (B03, B04, B08, B11 at 20 m)",
+  "collection_date": "2026-04-20",
+  "coverage": "Central Nagpur (approx. 14 x 11 km), 20 m, UTM 44N",
+  "file_format": "GeoTIFF",
+  "sentinel2_params": {
+    "BAND_ORDER": [
+      "B03",
+      "B04",
+      "B08",
+      "B11"
+    ],
+    "BOA_QUANTIFICATION_VALUE": 10000,
+    "BOA_ADD_OFFSET": -1000
+  },
+  "file_name": "sentinel2_nagpur_core_2026-04-20_L2A_DEMO.tif",
+  "file_size": 2377248
+}

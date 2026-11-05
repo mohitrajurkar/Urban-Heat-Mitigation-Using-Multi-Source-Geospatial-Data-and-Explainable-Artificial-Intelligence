@@ -1,146 +1,54 @@
-import React, { useEffect, useState } from "react";
-import { Sidebar, NavTab } from "./components/layout/Sidebar";
-import { Header } from "./components/layout/Header";
-import { DashboardPage } from "./pages/DashboardPage";
-import { HeatMapPage } from "./pages/HeatMapPage";
-import { HotspotsPage } from "./pages/HotspotsPage";
-import { WardDetailPage } from "./pages/WardDetailPage";
-import { MitigationComparisonPage } from "./pages/MitigationComparisonPage";
-import { ScenarioAnalysisPage } from "./pages/ScenarioAnalysisPage";
-import { ReportsPage } from "./pages/ReportsPage";
-import { fetchWards, getDataSource, WardSummaryItem, DataSourceMode } from "./services/api";
+import { lazy, Suspense } from 'react';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import { useAuth } from './hooks/useAuth';
+import { RunProvider } from './hooks/useRun';
+import AppLayout from './layouts/AppLayout';
+import LoginPage from './pages/LoginPage';
+import { LoadingBlock } from './components/ui';
 
-export const App: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<NavTab>("dashboard");
-  const [wards, setWards] = useState<WardSummaryItem[]>([]);
-  const [selectedWardId, setSelectedWardId] = useState<string>("ward-gandhibagh");
-  const [scenarioStrategyId, setScenarioStrategyId] = useState<string>("combined");
-  const [dataSource, setDataSource] = useState<DataSourceMode>("In-Browser Fallback Engine");
-  const [loading, setLoading] = useState<boolean>(true);
+const Dashboard = lazy(() => import('./pages/DashboardPage'));
+const HeatMap = lazy(() => import('./pages/HeatMapPage'));
+const Hotspots = lazy(() => import('./pages/HotspotsPage'));
+const Indicators = lazy(() => import('./pages/IndicatorsPage'));
+const Predictions = lazy(() => import('./pages/PredictionsPage'));
+const Explain = lazy(() => import('./pages/ExplainabilityPage'));
+const Recommendations = lazy(() => import('./pages/RecommendationsPage'));
+const Costs = lazy(() => import('./pages/CostAnalysisPage'));
+const Datasets = lazy(() => import('./pages/DatasetsPage'));
+const Reports = lazy(() => import('./pages/ReportsPage'));
+const SettingsPage = lazy(() => import('./pages/SettingsPage'));
 
-  useEffect(() => {
-    fetchWards().then((data) => {
-      setWards(data);
-      setDataSource(getDataSource());
-      if (data.length > 0) {
-        setSelectedWardId(data[0].id);
-      }
-      setLoading(false);
-    });
-  }, []);
-
-  const handleSelectWard = (wardId: string) => {
-    setSelectedWardId(wardId);
-    setActiveTab("ward-detail");
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  const handleOpenScenario = (wardId: string, strategyId: string) => {
-    setSelectedWardId(wardId);
-    setScenarioStrategyId(strategyId);
-    setActiveTab("scenario");
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  const handleSelectStrategyForScenario = (strategyId: string) => {
-    setScenarioStrategyId(strategyId);
-    setActiveTab("scenario");
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-
-  const [selectedCity, setSelectedCity] = useState<string>("nagpur");
-  const [searchQuery, setSearchQuery] = useState<string>("");
-
-  const handleSelectCity = (cityId: string) => {
-    setSelectedCity(cityId);
-    if (cityId !== "nagpur") {
-      alert(`City profile for ${cityId.toUpperCase()} selected. Note: Current Prototype Mode uses the validated high-density urban dataset for demonstration. Multi-city PostGIS raster ingestion will be enabled in Phase 2.`);
-    }
-  };
-
-  const criticalCount = wards.filter((w) => w.priorityLevel === "Critical").length;
-
+function Protected() {
+  const { user } = useAuth();
+  if (!user) return <Navigate to="/login" replace />;
   return (
-    <div className="app-container">
-      <Sidebar
-        activeTab={activeTab}
-        setActiveTab={setActiveTab}
-        criticalCount={criticalCount}
-      />
-
-      <div className="main-wrapper">
-        <Header
-          dataSource={dataSource}
-          selectedCity={selectedCity}
-          onSelectCity={handleSelectCity}
-          searchQuery={searchQuery}
-          onSearchChange={setSearchQuery}
-        />
-
-        <main className="content-body">
-          {loading ? (
-            <div style={{ padding: "80px 0", textAlign: "center" }}>
-              <span className="pulse-dot" style={{ width: 16, height: 16, backgroundColor: "var(--gov-blue)" }} />
-              <div style={{ marginTop: "16px", color: "var(--text-muted)", fontSize: "0.95rem" }}>
-                Initializing Urban Heat Decision Support System...
-              </div>
-            </div>
-          ) : (
-            <>
-              {activeTab === "dashboard" && (
-                <DashboardPage
-                  wards={wards}
-                  onSelectWard={handleSelectWard}
-                  onNavigateTab={(tab) => setActiveTab(tab)}
-                />
-              )}
-
-              {activeTab === "heatmap" && (
-                <HeatMapPage
-                  wards={wards}
-                  onSelectWard={handleSelectWard}
-                />
-              )}
-
-              {activeTab === "hotspots" && (
-                <HotspotsPage
-                  wards={wards}
-                  onSelectWard={handleSelectWard}
-                />
-              )}
-
-              {activeTab === "ward-detail" && (
-                <WardDetailPage
-                  wardId={selectedWardId}
-                  onBack={() => setActiveTab("hotspots")}
-                  onOpenScenario={handleOpenScenario}
-                  onOpenComparison={() => setActiveTab("mitigation")}
-                />
-              )}
-
-              {activeTab === "mitigation" && (
-                <MitigationComparisonPage
-                  onSelectStrategyForScenario={handleSelectStrategyForScenario}
-                />
-              )}
-
-              {activeTab === "scenario" && (
-                <ScenarioAnalysisPage
-                  wards={wards}
-                  initialWardId={selectedWardId}
-                  initialStrategyId={scenarioStrategyId}
-                />
-              )}
-
-              {activeTab === "reports" && (
-                <ReportsPage wards={wards} />
-              )}
-            </>
-          )}
-        </main>
-      </div>
-    </div>
+    <RunProvider>
+      <AppLayout />
+    </RunProvider>
   );
-};
+}
 
-export default App;
+export default function App() {
+  const { user } = useAuth();
+  return (
+    <Suspense fallback={<div className="p-10"><LoadingBlock rows={6} /></div>}>
+      <Routes>
+        <Route path="/login" element={user ? <Navigate to="/" replace /> : <LoginPage />} />
+        <Route element={<Protected />}>
+          <Route index element={<Dashboard />} />
+          <Route path="map" element={<HeatMap />} />
+          <Route path="hotspots" element={<Hotspots />} />
+          <Route path="indicators" element={<Indicators />} />
+          <Route path="predictions" element={<Predictions />} />
+          <Route path="explainability" element={<Explain />} />
+          <Route path="recommendations" element={<Recommendations />} />
+          <Route path="costs" element={<Costs />} />
+          <Route path="datasets" element={<Datasets />} />
+          <Route path="reports" element={<Reports />} />
+          <Route path="settings" element={<SettingsPage />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Route>
+      </Routes>
+    </Suspense>
+  );
+}

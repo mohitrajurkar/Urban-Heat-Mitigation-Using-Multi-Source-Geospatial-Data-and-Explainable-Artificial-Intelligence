@@ -1,4 +1,0 @@
-shap>=0.45.0
-numpy>=1.26.0
-pydantic>=2.6.0
-scikit-learn>=1.4.0

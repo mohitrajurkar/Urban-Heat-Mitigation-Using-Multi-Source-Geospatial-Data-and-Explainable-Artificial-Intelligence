@@ -1,0 +1,17 @@
+{
+  "is_demo": true,
+  "is_real": false,
+  "note": "SYNTHETIC DEMONSTRATION DATA - not a real satellite/ground observation",
+  "generator": "app.geospatial.demo_data",
+  "seed": 20260418,
+  "dataset_id": "demo-population",
+  "name": "Gridded population 2026 (100 m) - Nagpur (synthetic demo)",
+  "data_type": "population",
+  "source": "Synthetic WorldPop-style constrained population grid",
+  "collection_date": "2026-01-01",
+  "coverage": "Nagpur study area, 100 m, UTM 44N",
+  "file_format": "GeoTIFF",
+  "total_population": 1623212,
+  "file_name": "population_nagpur_2026_100m_DEMO.tif",
+  "file_size": 251871
+}

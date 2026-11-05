@@ -1,0 +1,105 @@
+{
+  "_note": "APPROXIMATE PLANNING ESTIMATES. Unit costs are indicative Indian 2026 price levels (INR) compiled for demonstration; replace with municipal schedule-of-rates values for real planning. Cooling values are expected reductions of the analysis-cell mean LST and follow simple linear coverage models documented in docs/METHODOLOGY.md.",
+  "cost_uncertainty": 0.25,
+  "currency": "INR",
+  "strategies": {
+    "tree_plantation": {
+      "name": "Tree Plantation",
+      "unit": "tree",
+      "unit_cost_inr": 1800,
+      "unit_cost_basis": "sapling (2-3 m), tree guard, planting and 3-year maintenance per tree",
+      "spacing_m2_per_tree": 25,
+      "share_of_built_area": 0.08,
+      "share_of_open_area": 0.2,
+      "max_ndvi": 0.3,
+      "min_area_m2": 500,
+      "cooling_coefficient_c": 7.0,
+      "max_cooling_c": 2.0,
+      "description": "Avenue, street and setback tree planting with native shade species (Neem, Peepal, Karanj, Jamun).",
+      "min_built_fraction": 0.2
+    },
+    "urban_forest": {
+      "name": "Urban Forest Development",
+      "unit": "m²",
+      "unit_cost_inr": 1100,
+      "unit_cost_basis": "Miyawaki-style dense native afforestation incl. soil preparation, saplings and 3-year maintenance",
+      "min_open_fraction": 0.12,
+      "share_of_open_area": 0.45,
+      "min_area_m2": 4000,
+      "max_area_m2": 20000,
+      "cooling_coefficient_c": 9.0,
+      "max_cooling_c": 3.0,
+      "description": "Dense multi-layer native forest patches on vacant, barren or fallow land.",
+      "min_built_fraction": 0.15
+    },
+    "cool_roofs": {
+      "name": "Cool Roofs",
+      "unit": "m²",
+      "unit_cost_inr": 350,
+      "unit_cost_basis": "solar-reflective white elastomeric / lime-based roof coating applied to existing roofs",
+      "min_built_fraction": 0.35,
+      "max_albedo": 0.25,
+      "roof_share_of_built": 0.55,
+      "adoption_rate": 0.6,
+      "cooling_coefficient_c": 5.0,
+      "max_cooling_c": 2.0,
+      "description": "High-albedo reflective coatings on residential, commercial and industrial roofs."
+    },
+    "cool_pavements": {
+      "name": "Cool Pavements",
+      "unit": "m²",
+      "unit_cost_inr": 900,
+      "unit_cost_basis": "reflective / permeable pavement coating or interlocking light-coloured pavers",
+      "min_built_fraction": 0.3,
+      "min_ndbi": -0.02,
+      "road_width_m": 9,
+      "paved_share_of_built_if_no_roads": 0.12,
+      "max_paved_share": 0.15,
+      "adoption_rate": 0.5,
+      "cooling_coefficient_c": 4.0,
+      "max_cooling_c": 1.2,
+      "description": "Reflective or permeable pavements for roads, parking lots and market yards."
+    },
+    "water_bodies": {
+      "name": "Water Bodies",
+      "unit": "m²",
+      "unit_cost_inr": 2500,
+      "unit_cost_basis": "retention pond / rejuvenated tank incl. excavation, lining, inlet and landscaping",
+      "max_water_fraction": 0.01,
+      "max_ndwi": -0.1,
+      "min_open_fraction": 0.12,
+      "share_of_open_area": 0.15,
+      "min_area_m2": 1000,
+      "max_area_m2": 8000,
+      "cooling_coefficient_c": 14.0,
+      "max_cooling_c": 2.5,
+      "description": "New retention ponds or rejuvenation of dried tanks providing evaporative cooling.",
+      "min_built_fraction": 0.25
+    }
+  },
+  "priority_weights": {
+    "heat_severity": 0.35,
+    "population_vulnerability": 0.25,
+    "vegetation_deficit": 0.15,
+    "implementation_feasibility": 0.1,
+    "cooling_benefit": 0.15
+  },
+  "priority_levels": [
+    {
+      "level": "Critical",
+      "min_score": 80
+    },
+    {
+      "level": "High",
+      "min_score": 70
+    },
+    {
+      "level": "Medium",
+      "min_score": 55
+    },
+    {
+      "level": "Low",
+      "min_score": 0
+    }
+  ]
+}

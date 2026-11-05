@@ -1,0 +1,17 @@
+{
+  "is_demo": true,
+  "is_real": false,
+  "note": "SYNTHETIC DEMONSTRATION DATA - not a real satellite/ground observation",
+  "generator": "app.geospatial.demo_data",
+  "seed": 20260418,
+  "dataset_id": "demo-meteo",
+  "name": "Daily station meteorology Apr-May 2026 - Nagpur (synthetic demo)",
+  "data_type": "meteorological",
+  "source": "Synthetic station series modelled on IMD/ERA5 pre-monsoon climatology",
+  "collection_date": "2026-04-01/2026-05-31",
+  "coverage": "7 demo stations across Nagpur",
+  "file_format": "CSV",
+  "notes": "Contains deliberate missing values, duplicates and sensor-error outliers to demonstrate cleaning.",
+  "file_name": "meteorology_nagpur_apr-may_2026_DEMO.csv",
+  "file_size": 36951
+}

@@ -1,0 +1,430 @@
+station_id,station_name,latitude,longitude,date,air_temp_max_c,air_temp_min_c,relative_humidity_pct,wind_speed_ms,solar_radiation_wm2
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-01,41.7,26.1,27.3,2.42,306.4
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-02,39.1,24.2,26.8,3.15,279.7
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-03,40.9,26.4,21.8,2.48,321.8
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-04,39.7,24.8,29.9,3.22,279.4
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-05,39.6,25.5,18.3,2.38,327.0
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-06,39.5,27.7,24.6,2.86,311.9
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-07,41.1,26.7,23.3,2.73,285.8
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-08,41.3,25.5,18.2,3.33,281.4
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-09,42.5,24.6,27.3,2.93,319.9
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-10,40.3,25.2,23.2,3.22,284.7
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-11,41.6,26.5,19.3,3.94,300.8
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-12,42.9,26.5,18.9,3.27,280.5
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-13,40.2,25.0,20.6,3.01,288.9
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-14,39.5,27.4,20.7,3.59,281.5
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-15,41.4,26.0,17.7,2.83,328.1
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-16,38.3,26.3,22.2,3.09,289.5
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-17,40.5,26.1,19.0,3.6,280.7
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-18,39.9,25.4,19.4,3.43,288.6
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-19,39.2,26.0,23.2,4.02,309.3
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-20,40.4,27.0,26.8,2.67,304.6
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-21,,27.9,23.9,3.39,317.4
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-22,42.0,27.1,23.0,2.63,309.5
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-23,40.8,26.7,28.6,3.32,316.1
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-24,41.1,26.7,17.5,2.3,307.6
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-25,41.2,28.5,18.9,3.29,277.3
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-26,42.8,27.1,18.7,2.72,287.5
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-27,39.3,27.0,22.3,3.1,299.5
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-28,40.6,27.1,24.2,3.0,271.1
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-29,42.4,28.1,27.2,2.84,331.2
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-30,41.3,28.8,17.3,2.32,285.4
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-01,40.9,26.4,24.0,2.69,323.8
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-02,42.2,27.5,24.2,1.93,292.1
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-03,42.9,25.3,19.0,2.62,305.7
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-04,41.5,27.9,19.4,3.16,310.8
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-05,41.6,26.8,26.3,3.91,289.0
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-06,41.0,27.0,18.9,2.88,298.7
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-07,42.4,28.2,20.0,1.25,292.1
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-08,44.0,28.2,18.5,3.22,309.4
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-09,43.3,27.3,21.3,3.1,275.2
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-10,42.0,29.4,19.3,4.27,285.9
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-11,42.8,28.5,17.4,2.6,300.0
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-12,41.9,27.7,15.8,2.8,313.8
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-13,42.6,27.9,21.3,3.34,328.0
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-14,43.9,27.7,25.6,1.34,275.1
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-15,41.9,26.4,20.3,3.52,318.8
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-16,42.0,28.4,28.6,4.34,312.0
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-17,42.4,28.4,24.9,3.73,279.5
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-18,43.1,28.3,21.9,2.68,266.6
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-19,43.7,30.0,19.0,2.16,282.7
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-20,42.7,28.7,20.1,1.56,302.9
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-21,42.7,30.2,21.0,4.22,275.8
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-22,42.7,29.9,17.0,2.67,315.2
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-23,44.3,29.7,18.3,2.91,347.7
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-24,43.6,29.4,23.5,2.75,316.5
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-25,42.8,28.9,18.8,2.8,329.5
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-26,44.0,31.5,22.2,2.6,308.2
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-27,41.9,29.0,11.7,2.63,271.9
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-28,41.1,29.2,21.4,4.04,321.3
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-29,43.4,28.9,19.6,2.41,288.9
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-30,43.4,29.7,24.2,3.13,287.7
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-05-31,43.2,28.5,24.5,2.05,302.1
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-01,39.0,26.5,16.7,2.91,291.0
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-02,39.2,24.5,21.4,3.7,328.1
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-03,38.2,25.3,25.8,4.07,287.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-04,99.9,25.7,21.8,3.96,337.9
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-05,41.2,25.3,25.1,4.12,286.8
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-06,37.2,25.3,23.6,2.43,274.3
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-07,40.3,26.2,26.7,3.3,316.8
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-08,39.7,26.6,22.0,4.19,307.7
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-09,38.1,24.5,28.1,3.08,321.9
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-10,40.0,27.2,24.6,2.97,317.4
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-11,39.3,25.8,32.4,3.2,320.1
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-12,38.4,25.4,22.7,3.21,304.3
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-13,39.4,25.5,29.7,2.76,296.6
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-14,41.8,25.2,24.2,3.76,275.1
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-15,39.3,27.0,24.2,2.48,306.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-16,42.1,24.3,30.1,3.71,298.5
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-17,39.5,27.2,22.9,3.06,320.1
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-18,40.4,26.7,26.8,2.79,302.5
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-19,,25.3,20.8,2.88,316.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-20,39.9,27.5,25.7,2.98,287.5
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-21,41.0,26.9,21.8,3.06,305.8
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-22,42.0,28.1,16.9,3.12,310.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-23,40.0,25.4,24.6,1.73,307.3
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-24,40.9,26.6,13.8,2.33,306.0
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-25,41.5,26.2,30.1,3.33,302.6
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-26,41.3,26.5,31.0,2.26,340.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-27,41.4,28.0,24.4,2.89,276.4
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-28,42.1,27.5,26.6,3.95,290.1
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-29,40.2,28.3,20.9,2.5,307.4
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-04-30,42.5,25.7,24.1,4.26,304.9
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-01,41.9,28.5,22.1,2.95,301.8
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-02,40.1,25.7,23.2,3.03,286.5
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-03,40.0,27.5,19.9,3.43,302.0
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-04,39.3,27.9,17.6,2.67,279.4
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-05,39.8,27.1,25.5,3.59,309.1
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-06,41.1,27.1,24.5,2.96,302.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-07,40.4,28.9,26.5,2.76,297.9
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-08,40.5,26.9,25.8,1.46,304.9
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-09,40.1,29.2,23.9,4.26,246.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-10,40.6,26.5,30.1,4.18,296.6
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-11,42.1,27.8,21.0,2.35,314.9
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-12,42.1,26.7,21.1,3.07,298.1
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-13,42.5,28.7,21.1,3.98,302.5
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-14,41.9,28.1,24.5,2.79,276.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-15,43.3,27.3,22.6,3.63,327.6
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-16,41.6,27.6,25.5,2.65,269.5
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-17,42.3,28.1,21.0,3.5,281.0
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-18,44.8,30.0,27.4,3.04,295.9
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-19,43.2,29.2,20.0,3.45,314.9
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-20,41.9,29.9,26.5,3.25,261.3
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-21,42.4,28.4,22.6,4.05,321.5
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-22,42.4,27.1,18.7,2.21,305.7
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-23,43.2,28.1,15.3,3.93,277.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-24,43.3,29.1,21.6,2.92,283.5
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-25,43.3,27.1,22.1,4.04,300.5
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-26,42.4,26.8,20.4,2.79,316.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-27,42.0,28.0,15.4,3.74,311.1
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-28,40.1,31.0,19.9,3.58,279.7
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-29,42.1,27.3,15.9,3.62,285.0
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-30,44.9,30.6,10.4,2.01,266.2
+DEMO-NGP-02,Civil Lines (demo station),21.156,79.075,2026-05-31,42.0,27.6,15.4,3.23,311.2
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-01,40.6,27.1,18.8,2.66,300.2
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-02,40.3,27.1,23.5,2.19,312.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-03,40.0,26.9,20.1,2.99,313.1
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-04,40.2,27.5,21.8,2.06,322.0
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-05,99.9,26.3,22.4,3.92,294.1
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-06,40.7,26.5,25.5,2.67,295.6
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-07,39.7,25.4,24.5,3.47,326.4
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-08,39.5,25.8,19.7,2.73,333.1
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-09,41.4,28.8,28.9,1.64,325.2
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-10,40.1,28.5,18.5,1.34,284.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-11,38.9,25.3,18.5,1.65,328.0
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-12,41.7,27.2,17.1,3.24,309.3
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-13,42.1,25.1,26.2,2.37,304.4
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-14,40.0,26.1,14.8,2.98,327.9
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-15,42.5,25.6,21.1,2.2,312.9
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-16,40.8,26.1,23.0,3.45,330.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-17,39.6,28.2,14.5,2.57,284.6
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-18,42.0,27.2,20.9,3.28,298.6
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-19,41.1,26.5,23.0,1.76,289.0
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-20,42.8,27.5,20.0,2.96,318.2
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-21,41.4,27.7,22.5,2.71,344.3
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-22,42.5,26.5,30.5,2.54,307.2
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-23,42.9,26.8,21.9,2.68,331.6
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-24,43.0,28.6,23.9,3.97,321.4
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-25,42.6,28.4,16.7,2.64,304.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-26,39.7,27.5,22.0,2.92,285.2
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-27,42.7,30.3,18.4,2.92,319.6
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-28,43.4,26.9,24.7,3.31,324.7
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-29,41.3,28.1,18.0,2.76,322.6
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-04-30,41.8,28.2,22.5,1.24,306.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-01,40.6,26.2,15.7,3.85,337.1
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-02,43.5,27.5,11.4,2.08,317.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-03,41.3,27.8,14.9,2.34,295.3
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-04,43.0,27.9,26.4,1.96,291.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-05,41.9,28.2,19.4,2.38,309.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-06,42.2,28.0,16.3,2.34,306.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-07,43.3,28.7,16.4,3.63,315.6
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-08,41.2,30.1,15.4,3.07,299.4
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-09,43.5,27.9,18.0,2.69,300.5
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-10,45.9,29.6,20.7,2.79,303.9
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-11,43.9,28.4,16.1,2.97,324.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-12,42.5,30.6,18.1,2.73,344.1
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-13,41.9,30.1,17.6,2.84,307.2
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-14,42.3,28.8,15.1,2.68,310.2
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-15,44.0,29.1,17.5,3.27,289.1
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-16,44.2,28.5,15.0,2.29,278.7
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-17,43.0,30.1,20.4,2.02,304.4
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-18,45.5,30.9,20.6,2.41,325.7
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-19,45.1,29.2,18.1,2.34,300.7
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-20,44.8,30.5,19.7,3.18,297.7
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-21,43.8,28.1,19.6,3.12,324.8
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-22,42.8,28.3,16.9,2.24,285.4
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-23,43.0,28.7,16.6,2.93,319.7
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-24,45.0,29.9,20.6,2.85,288.1
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-25,45.1,28.2,22.6,2.59,312.3
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-26,44.3,29.8,27.5,2.35,279.4
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-27,42.4,28.2,18.0,2.89,314.7
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-28,45.4,28.6,18.9,1.58,307.2
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-29,45.0,29.6,23.6,2.44,323.5
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-30,45.1,28.2,15.8,3.19,347.5
+DEMO-NGP-03,Itwari (demo station),21.155,79.11,2026-05-31,44.7,30.4,16.4,3.11,326.7
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-01,41.6,26.3,22.2,2.18,287.4
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-02,41.6,24.3,23.7,2.41,295.2
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-03,40.1,25.2,28.9,2.59,312.1
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-04,38.8,27.5,28.3,2.1,311.3
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-05,41.1,27.2,18.8,3.46,282.5
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-06,38.8,25.4,22.8,2.86,312.7
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-07,,27.0,20.0,2.7,277.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-08,40.5,25.1,23.0,1.49,301.0
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-09,40.5,24.6,26.0,3.07,305.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-10,40.8,27.3,17.4,3.05,280.5
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-11,39.1,26.5,23.1,3.94,275.4
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-12,39.5,25.8,23.2,3.67,308.1
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-13,41.5,27.3,24.8,3.72,344.5
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-14,40.4,26.6,23.4,2.68,290.4
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-15,42.5,26.0,15.0,2.95,313.5
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-16,40.2,26.0,24.5,1.98,287.5
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-17,42.7,26.5,23.2,1.36,277.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-18,41.6,27.1,15.8,3.35,294.6
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-19,43.3,26.0,22.0,2.36,348.7
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-20,41.0,27.1,21.0,1.72,309.5
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-21,41.1,27.1,15.6,3.53,322.0
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-22,39.7,24.7,19.2,2.33,290.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-23,43.0,27.1,19.6,2.58,290.0
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-24,42.4,26.7,25.0,3.02,297.1
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-25,41.3,26.7,22.5,3.65,307.3
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-26,41.3,25.6,17.2,3.2,270.5
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-27,41.5,27.6,22.4,2.59,313.8
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-28,42.7,28.0,22.6,2.1,296.0
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-29,40.8,25.7,10.3,3.69,313.7
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-30,40.5,29.3,19.7,3.0,298.8
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-01,41.3,27.8,22.2,2.12,268.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-02,42.4,28.7,25.7,3.75,303.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-03,41.0,28.2,22.5,2.93,335.8
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-04,42.0,26.9,16.5,2.05,295.4
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-05,41.2,28.9,26.0,2.4,304.0
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-06,43.8,27.1,21.8,2.73,292.4
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-07,43.7,28.4,16.2,3.06,300.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-08,42.5,27.8,20.9,3.37,320.5
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-09,42.1,29.1,22.5,3.62,302.2
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-10,41.7,25.8,21.6,3.78,305.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-11,42.3,27.1,16.2,2.1,308.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-12,41.6,27.8,24.3,3.91,284.6
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-13,43.0,27.4,20.5,2.0,289.1
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-14,43.1,29.5,14.4,2.85,306.2
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-15,41.5,28.8,17.3,2.9,282.0
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-16,44.3,28.9,17.7,2.62,302.8
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-17,42.4,28.6,14.7,3.44,286.7
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-18,42.6,29.6,17.7,2.21,302.3
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-19,44.1,28.4,24.1,3.33,307.8
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-20,42.5,28.0,16.6,3.4,279.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-21,42.4,29.0,21.1,3.37,287.6
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-22,43.8,27.9,21.9,3.0,261.5
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-23,43.4,29.6,16.3,1.49,301.3
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-24,43.1,28.3,19.4,2.82,284.0
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-25,42.0,29.6,25.0,3.37,340.2
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-26,42.7,28.8,8.0,3.43,289.9
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-27,44.9,31.4,10.8,1.45,335.4
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-28,43.0,29.6,19.6,3.19,307.2
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-29,43.1,28.6,23.2,1.94,309.4
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-30,42.8,31.1,26.6,3.75,322.7
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-05-31,43.3,28.8,22.3,2.87,310.9
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-01,38.9,25.1,25.2,2.14,287.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-02,40.1,25.9,21.9,3.33,318.2
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-03,41.8,25.7,23.8,2.22,304.6
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-04,39.4,23.7,26.8,1.96,312.5
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-05,39.5,26.8,26.8,3.33,280.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-06,41.5,27.5,27.5,3.36,321.1
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-07,40.1,27.0,20.3,3.51,306.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-08,41.7,25.7,19.6,3.46,291.6
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-09,41.1,27.1,24.8,2.4,297.8
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-10,40.8,27.4,21.3,2.05,346.2
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-11,40.0,27.6,22.5,2.89,276.0
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-12,40.3,27.8,25.8,3.62,304.4
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-13,40.8,26.8,24.2,2.51,278.8
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-14,42.7,28.4,10.9,2.9,306.4
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-15,40.0,25.0,22.4,3.14,308.2
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-16,40.6,23.5,25.0,2.51,308.8
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-17,43.1,26.9,18.3,3.06,293.2
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-18,41.8,24.0,23.7,2.62,315.5
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-19,40.6,26.7,16.1,3.59,312.6
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-20,39.8,27.8,19.9,3.12,329.9
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-21,41.5,26.9,16.0,2.39,320.4
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-22,40.6,25.8,12.8,2.49,343.5
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-23,41.9,27.6,17.6,2.97,312.8
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-24,41.6,28.1,17.2,3.32,291.9
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-25,42.8,27.0,21.0,1.35,320.0
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-26,40.6,27.7,20.0,3.09,296.2
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-27,44.5,27.2,25.2,1.43,320.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-28,40.7,25.9,17.5,2.92,331.0
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-29,42.1,26.7,15.5,1.77,278.2
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-04-30,42.3,27.8,20.0,2.2,305.7
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-01,42.1,28.1,-5.0,2.34,317.9
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-02,43.9,27.5,17.8,1.62,321.8
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-03,41.8,27.3,24.3,2.47,290.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-04,42.5,28.6,23.1,3.8,297.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-05,43.2,27.3,20.5,3.1,296.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-06,42.1,27.9,-5.0,2.27,319.6
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-07,42.8,27.2,20.0,2.93,299.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-08,43.2,28.1,21.3,2.41,284.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-09,42.6,27.0,19.0,2.35,327.0
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-10,42.2,28.6,15.6,2.55,310.8
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-11,44.1,25.8,18.3,2.96,313.9
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-12,43.3,27.2,14.8,4.45,279.4
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-13,43.5,30.4,24.4,3.41,316.5
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-14,42.7,26.6,20.9,2.63,299.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-15,41.2,28.3,20.6,3.16,320.1
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-16,42.6,27.1,9.8,2.26,354.6
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-17,42.1,29.9,15.8,3.45,296.7
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-18,42.6,28.0,24.3,1.37,297.3
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-19,43.8,27.1,18.3,2.52,289.0
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-20,42.0,28.2,25.2,2.56,309.5
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-21,41.6,29.0,21.5,3.54,297.7
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-22,45.6,28.7,21.4,2.95,289.5
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-23,45.3,29.1,18.6,3.61,313.2
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-24,42.3,29.2,22.9,2.63,287.2
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-25,42.0,30.4,15.1,2.55,292.1
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-26,43.8,29.9,16.7,2.62,321.6
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-27,44.5,29.8,16.4,3.16,290.7
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-28,45.9,31.8,18.1,3.09,299.6
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-29,44.6,28.8,22.4,3.23,323.0
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-30,,29.6,19.9,2.16,317.4
+DEMO-NGP-05,Kalamna (demo station),21.175,79.14,2026-05-31,44.9,27.9,20.1,1.38,283.3
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-01,37.1,23.7,22.7,2.71,296.5
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-02,37.1,23.7,29.7,2.61,284.3
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-03,,23.5,23.0,4.11,294.8
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-04,40.2,24.9,24.7,3.39,284.0
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-05,39.3,26.4,24.8,3.82,330.7
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-06,38.4,25.0,21.1,3.11,273.4
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-07,39.3,25.3,21.6,3.31,290.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-08,39.0,24.6,27.9,4.03,317.8
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-09,,24.8,25.2,2.75,310.8
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-10,37.7,23.9,26.1,2.99,294.7
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-11,37.8,24.4,24.6,3.27,281.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-12,40.3,24.9,28.6,3.76,293.1
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-13,39.7,27.4,24.8,4.49,301.6
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-14,39.5,27.2,27.1,3.14,295.5
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-15,,26.1,31.8,4.09,286.0
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-16,39.6,25.6,28.7,3.01,306.5
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-17,40.0,26.4,23.2,3.23,278.7
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-18,40.0,27.2,24.5,3.42,290.6
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-19,39.0,26.1,24.5,2.8,322.0
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-20,39.7,24.3,25.1,3.63,286.7
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-21,42.5,26.3,30.5,3.12,305.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-22,40.2,26.9,16.8,3.08,287.8
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-23,38.7,26.3,22.1,4.13,267.4
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-24,41.0,26.7,23.1,3.12,311.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-25,38.7,26.7,16.0,1.75,289.1
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-26,39.6,25.5,29.9,3.53,297.7
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-27,39.3,25.5,22.1,3.47,293.0
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-28,38.2,26.3,25.6,2.72,279.4
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-29,39.6,25.6,20.1,3.88,280.5
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-04-30,42.1,26.8,27.4,3.46,262.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-01,41.3,25.8,26.3,3.9,296.5
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-02,40.1,26.1,29.0,2.86,315.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-03,39.6,28.3,19.9,4.62,284.3
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-04,38.7,30.0,23.8,2.68,272.9
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-05,40.0,26.1,22.1,2.61,308.7
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-06,40.1,27.8,20.2,4.13,277.5
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-07,41.4,28.6,22.0,2.54,280.1
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-08,39.1,26.2,18.2,3.35,292.5
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-09,40.8,27.5,20.1,2.75,265.9
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-10,41.1,29.2,28.3,3.07,297.8
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-11,40.4,25.8,10.8,3.44,292.9
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-12,39.1,26.4,25.3,3.8,272.9
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-13,38.8,26.3,20.4,1.98,292.9
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-14,43.1,27.8,23.3,4.65,249.0
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-15,41.2,26.3,21.0,3.65,285.3
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-16,41.0,26.8,19.5,4.18,279.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-17,41.6,27.3,25.2,2.81,277.0
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-18,41.0,27.9,21.5,3.43,312.9
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-19,42.0,27.6,19.6,85.0,282.8
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-20,40.6,28.5,29.8,3.89,288.4
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-21,41.8,27.9,18.2,2.7,303.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-22,99.9,27.4,27.2,3.31,274.4
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-23,42.9,29.1,19.6,3.22,311.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-24,44.2,27.1,29.1,3.55,298.4
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-25,41.4,29.3,18.0,2.66,292.7
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-26,41.3,31.1,20.2,3.56,310.6
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-27,41.4,27.4,15.2,3.02,291.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-28,42.1,28.3,24.1,3.19,294.6
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-29,43.0,28.2,22.7,4.47,296.9
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-30,41.9,30.2,17.9,2.72,296.2
+DEMO-NGP-06,Gorewada (demo station),21.2,79.038,2026-05-31,41.5,29.5,22.9,3.66,310.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-01,40.2,24.7,23.9,3.69,305.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-02,39.6,25.2,28.7,2.71,314.2
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-03,37.6,25.6,21.9,3.13,301.3
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-04,38.2,25.5,31.5,2.41,297.8
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-05,40.6,25.8,21.0,2.98,311.5
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-06,40.6,24.2,22.0,2.9,289.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-07,38.9,26.5,14.4,3.38,311.9
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-08,40.6,25.7,20.7,2.77,266.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-09,38.6,24.7,17.0,1.86,302.9
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-10,41.0,25.8,25.4,2.6,285.9
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-11,38.3,25.4,19.9,1.76,283.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-12,42.5,25.0,21.0,3.34,341.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-13,40.3,25.1,23.0,2.64,257.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-14,41.3,26.1,26.3,2.06,293.8
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-15,38.5,26.0,26.1,3.7,281.6
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-16,40.2,27.0,19.4,2.73,284.4
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-17,41.7,27.5,15.0,3.63,318.4
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-18,41.9,26.8,17.5,2.48,302.4
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-19,40.6,26.7,21.2,2.71,268.7
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-20,40.2,28.3,25.7,2.76,295.9
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-21,43.1,25.4,22.5,3.19,289.2
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-22,41.3,27.5,14.1,3.03,300.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-23,42.8,25.5,17.0,3.2,309.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-24,43.0,25.7,29.8,3.45,287.8
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-25,40.3,28.3,23.1,3.42,279.4
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-26,40.6,27.1,22.2,3.75,330.7
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-27,42.2,28.0,18.2,2.66,304.3
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-28,41.3,26.8,31.8,2.81,300.9
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-29,41.4,26.1,22.2,3.01,309.9
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-04-30,41.0,26.6,24.8,3.35,313.4
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-01,42.0,27.4,17.9,2.6,350.2
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-02,41.7,27.9,25.6,2.74,289.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-03,42.4,29.6,17.6,3.45,291.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-04,41.0,27.3,14.5,2.8,277.5
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-05,41.5,27.7,20.4,2.09,320.7
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-06,38.9,27.6,13.4,3.28,304.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-07,41.2,28.0,15.2,4.24,316.8
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-08,41.7,27.9,16.4,2.4,321.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-09,42.1,26.4,18.0,3.69,287.6
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-10,42.1,27.9,16.6,4.15,321.6
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-11,,28.1,20.7,3.19,304.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-12,41.4,29.0,21.7,1.57,312.7
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-13,43.5,28.3,11.7,3.79,326.2
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-14,41.4,27.8,17.0,3.87,316.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-15,41.9,27.7,23.5,4.37,296.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-16,43.1,27.7,14.0,2.72,291.8
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-17,42.8,26.2,20.8,2.7,306.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-18,43.1,28.3,24.8,3.2,303.4
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-19,40.5,29.2,9.9,2.89,312.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-20,41.3,29.5,19.5,2.53,310.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-21,44.6,29.6,26.2,3.06,301.5
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-22,41.8,28.2,22.0,2.02,297.6
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-23,45.6,29.2,20.1,4.34,271.5
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-24,42.7,29.3,21.8,2.54,317.7
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-25,42.0,30.0,17.6,2.46,291.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-26,43.4,29.6,14.3,2.03,283.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-27,42.3,28.8,17.7,3.11,284.5
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-28,41.9,27.6,23.6,2.74,312.1
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-29,43.9,29.5,18.5,85.0,297.0
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-30,43.9,29.7,28.9,3.58,298.9
+DEMO-NGP-07,Besa (demo station),21.08,79.1,2026-05-31,41.4,28.8,18.8,3.21,260.8
+DEMO-NGP-01,Sonegaon (demo station),21.092,79.047,2026-04-11,41.6,26.5,19.3,3.94,300.8
+DEMO-NGP-04,Hingna (demo station),21.108,78.99,2026-04-18,41.6,27.1,15.8,3.35,294.6

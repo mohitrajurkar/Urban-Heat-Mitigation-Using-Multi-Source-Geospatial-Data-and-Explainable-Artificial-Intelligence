@@ -1,0 +1,12 @@
+# root context is used only by backend/Dockerfile
+**/node_modules
+**/.venv
+**/target
+**/__pycache__
+data
+reports
+frontend
+ai-service
+docs
+*.zip
+.git

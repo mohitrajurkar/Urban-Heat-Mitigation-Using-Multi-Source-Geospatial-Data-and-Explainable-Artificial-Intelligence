@@ -1,159 +1,133 @@
-export type SeverityLevel = "Low" | "Moderate" | "High" | "Critical";
+export type Role = 'ADMIN' | 'ANALYST' | 'VIEWER';
+export type Severity = 'Low' | 'Moderate' | 'High' | 'Very High';
+export type PriorityLevel = 'Critical' | 'High' | 'Medium' | 'Low';
+export type RunStatus = 'PENDING' | 'RUNNING' | 'COMPLETED' | 'FAILED';
 
-export interface HeatMetrics {
-  surfaceTemperature: number;       // Land Surface Temperature (LST) in °C (e.g., 34.0 to 45.5)
-  ndvi: number;                     // Normalized Difference Vegetation Index (-0.1 to +0.8)
-  builtUpPercentage: number;        // Concrete / impervious surface % (0 to 100)
-  albedo: number;                   // Surface reflectivity factor (0.05 to 0.40)
-  openSpacePercentage: number;      // Available ground / unbuilt % (0 to 100)
-  treeCanopyPercentage: number;     // Existing canopy cover % (0 to 100)
+export interface User {
+  id: number;
+  username: string;
+  email: string;
+  fullName: string;
+  role: Role;
+  enabled: boolean;
+  createdAt: string;
+  lastLoginAt: string | null;
 }
 
-export interface VulnerabilityMetrics {
-  vulnerableDemographicPercentage: number;  // Children (<5) & elderly (>65) exposure %
-  slumOrInformalSettlementPercentage: number; // High-density informal settlement %
-  hospitalOrClinicDistanceKm: number;        // Average access distance to cooling/medical center
-  greenSpaceDeficitPercentage: number;       // Deficit compared to WHO recommended green norms
+export interface LoginResponse { token: string; tokenType: string; expiresIn: number; user: User; }
+
+export interface Page<T> { content: T[]; page: number; size: number; totalElements: number; totalPages: number; }
+
+export interface Run {
+  id: number;
+  aiRunId: string | null;
+  studyAreaId: number;
+  studyAreaName: string;
+  status: RunStatus;
+  currentStep: string | null;
+  progress: number;
+  message: string | null;
+  demo: boolean;
+  parameters: Record<string, number> | null;
+  datasetSelection: Record<string, string> | null;
+  startedAt: string;
+  completedAt: string | null;
+  durationSeconds: number | null;
 }
 
-export interface Ward {
-  id: string;
-  name: string;
-  zone: string;
-  prabhagNo: number;
-  coordinates: [number, number]; // [lat, lng]
-  boundaryCoordinates: [number, number][]; // Polygon coordinates
-  areaKm2: number;
-  population: number;
-  populationDensity: number; // per sq km
-  metrics: HeatMetrics;
-  vulnerability: VulnerabilityMetrics;
+export interface StudyArea {
+  id: number; code: string; name: string; city: string; state: string; country: string; description: string;
+  bbox: [number, number, number, number]; center: [number, number]; processingEpsg: number; resolutionM: number; cellSizeM: number;
 }
 
-export interface GridCell {
-  id: string;                      // e.g. "G-101"
-  row: number;
-  col: number;
-  latitude: number;
-  longitude: number;
-  bounds: [[number, number], [number, number]]; // [[south, west], [north, east]]
-  areaKm2: number;                 // 1.0 (1 km x 1 km)
-  wardId: string;                  // Parent administrative ward ID
-  wardName: string;                // Parent administrative ward name
-  lst: number;                     // Land Surface Temperature in °C (e.g. 33.2 to 46.5)
-  ndvi: number;                    // -0.1 to 0.6
-  builtUp: number;                 // Built-up percentage (0 to 100)
-  populationDensity: number;       // Inhabitants per km²
-  albedo: number;                  // Surface albedo reflectivity (0.05 to 0.40)
-  heatSeverity: number;            // 0 to 100 composite score
-  severityLevel: SeverityLevel;    // Low | Moderate | High | Critical
-  vulnerability: number;           // 0 to 100 demographic exposure score
-  priorityScore: number;           // 0 to 100 priority score
-  priorityLevel: SeverityLevel;
-  recommendedMitigation?: {
-    strategyId: string;
-    strategyName: string;
-    category: string;
-    estimatedCostFormatted: string;
-    expectedCoolingDrop: number;
-    reason: string;
-  };
+export interface Dataset {
+  id: number; aiDatasetId: string; name: string; dataType: string; source: string | null; collectionDate: string | null;
+  coverage: string | null; fileFormat: string | null; fileName: string | null; fileSize: number | null; demo: boolean; realData: boolean;
+  metadata: Record<string, unknown> | null; uploadedBy: string | null; createdAt: string;
 }
 
-export interface City {
-  id: string;
-  name: string;
-  state: string;
-  country: string;
-  center: [number, number];
-  zoom: number;
-  isPrototype: boolean;
-  totalWards: number;
-  totalGridCells: number;
-  avgLST: number;
-  highRiskZonesCount: number;
-  populationCovered: string;
+export interface PriorityInfo {
+  id: number; rank: number; score: number; level: PriorityLevel;
+  components: Record<string, number>; contributions: Record<string, number>; weights: Record<string, number>;
+  expectedCoolingC: number | null; estimatedCost: number | null; nInterventions: number | null;
 }
 
-export interface MitigationStrategy {
-  id: string;
-  name: string;
-  category: "Nature-Based" | "Engineering/Albedo" | "Hybrid" | "Urban Water";
-  description: string;
-  costPerUnitINR: number;
-  costUnit: string;
-  coolingImpactCelsius: number; // Baseline cooling potential
-  implementationTime: "Immediate (<3 mo)" | "Short (3-6 mo)" | "Medium (6-12 mo)" | "Long (>12 mo)";
-  maintenanceLevel: "Low" | "Medium" | "High";
-  vegetationRequirement: "None" | "Low" | "Moderate" | "High";
-  spaceRequirement: "Rooftop" | "Open Ground" | "Street Corridor" | "Pavement" | "Water Body";
-  suitableFor: string[];
-  prototypeDisclaimer: string;
+export interface HotspotRow {
+  hotspotId: number; regionId: number; regionCode: string; name: string; locality: string; lon: number; lat: number;
+  severity: Severity; severitySource: string; observedSeverity: Severity | null; predictedSeverity: Severity; hotspot: boolean;
+  lst: number | null; lstAnomaly: number | null; giStarZ: number | null; giStarSignificant: boolean;
+  ndvi: number | null; ndbi: number | null; builtFraction: number | null; populationDensity: number | null; priority: PriorityInfo | null;
+}
+
+export interface IndicatorRow {
+  regionId: number; regionCode: string; name: string; locality: string; lon: number; lat: number;
+  lstMean: number | null; lstMin: number | null; lstMax: number | null; ndvi: number | null; ndbi: number | null; ndwi: number | null;
+  albedo: number | null; lulc: number | null; lulcName: string | null; builtFraction: number | null; vegetationFraction: number | null;
+  waterFraction: number | null; openLandFraction: number | null; airTempMax: number | null; relativeHumidity: number | null;
+  windSpeed: number | null; population: number | null; populationDensity: number | null; roadDensity: number | null;
+  validPixelPct: number | null; labelQualityOk: boolean;
+}
+
+export interface Cost {
+  estimated: number; low: number; high: number; unitCost: number; unitCostBasis: string; costPerDegree: number | null;
+  currency: string; approximate: boolean;
 }
 
 export interface Recommendation {
-  strategy: MitigationStrategy;
-  suitabilityScore: number;
-  estimatedCostINR: number;
-  estimatedCostFormatted: string;
-  expectedCoolingDrop: number; // in °C
-  implementationTime: string;
-  maintenanceLevel: string;
-  reason: string;
-  disclaimer: string;
+  id: number; type: string; name: string; description: string; regionId: number; regionCode: string; regionName: string;
+  locality: string; lon: number; lat: number; locationDescription: string; reason: string; areaM2: number; quantity: number;
+  unit: string; coolingC: number; suitability: number; priorityLevel: PriorityLevel; costEffectivenessRank: number; cost: Cost;
 }
 
-export interface DecisionResult {
-  wardId: string;
-  wardName: string;
-  heatSeverity: {
-    score: number;
-    level: SeverityLevel;
-    breakdown: {
-      temperatureFactor: number;
-      builtUpFactor: number;
-      vegetationFactor: number;
-      populationFactor: number;
-      albedoFactor: number;
-    };
-    modelNote: string;
-  };
-  vulnerability: {
-    score: number;
-    level: SeverityLevel;
-    factors: string[];
-  };
-  priority: {
-    score: number;
-    level: SeverityLevel;
-    reason: string;
-  };
-  explainableFactors: {
-    title: string;
-    whyHighPriority: string[];
-    whyStrategyRecommended: string;
-    shapPlaceholderNote: string;
-  };
-  recommendations: Recommendation[];
+export interface Contribution { feature: string; label: string; value: number; shap: number; imputed?: boolean; }
+
+export interface LocalExplanation {
+  regionId: number; regionCode: string; name: string; model: string; baseValue: number; predictedValue: number;
+  predictedClass: Severity; observedLst: number | null; contributions: Contribution[]; classContributions: Contribution[];
+  explanation: string;
 }
 
-export interface ScenarioInput {
-  wardId: string;
-  strategyId: string;
-  coveragePercentage: number; // 10 to 100
+export interface Evaluation {
+  modelName: string; task: 'classification' | 'regression'; accuracy: number | null; precision: number | null; recall: number | null;
+  f1: number | null; mae: number | null; rmse: number | null; r2: number | null; cvMean: number | null; cvStd: number | null;
+  trainSamples: number; testSamples: number; trainingSeconds: number; best: boolean; confusionMatrix: number[][] | null;
+  featureImportance: { feature: string; label: string; importance: number }[];
+  details: Record<string, unknown> & { scatter?: { observed: number; predicted: number }[]; per_class?: { class: string; precision: number; recall: number; f1: number; support: number }[]; train_accuracy?: number; train_r2?: number; cv_metric?: string };
 }
 
-export interface ScenarioResult {
-  wardId: string;
-  wardName: string;
-  strategyName: string;
-  coveragePercentage: number;
-  estimatedCostINR: number;
-  estimatedCostFormatted: string;
-  expectedCoolingCelsius: number;
-  affectedPopulationBenefited: number;
-  baselinePriorityScore: number;
-  projectedPriorityScore: number;
-  priorityReductionPoints: number;
-  coBenefits: string[];
+export interface PredictionModelView { predictedClass: Severity; predictedLst: number; probabilities: Record<string, number>; bestModel: boolean; }
+export interface PredictionRow { regionId: number; regionCode: string; name: string; locality: string; observedLst: number | null; observedClass: Severity | null; models: Record<string, PredictionModelView>; }
+
+export interface LayerMeta {
+  label: string; unit: string; bounds: [number, number, number, number]; vmin?: number; vmax?: number;
+  stops?: { value: number; color: string }[]; categories?: { value: number; label: string; color: string }[];
+}
+
+export interface RegionFeature {
+  type: 'Feature'; id: number;
+  geometry: { type: 'Polygon'; coordinates: number[][][] };
+  properties: {
+    regionId: number; code: string; name: string; locality: string; lst: number | null; ndvi: number | null; ndbi: number | null;
+    ndwi: number | null; albedo: number | null; lulc: number | null; lulcName: string | null; builtFraction: number | null;
+    vegetationFraction: number | null; populationDensity: number | null; hotspotId?: number; severity?: Severity; isHotspot?: boolean;
+    giStarZ?: number | null; giStarSignificant?: boolean; predictedLst?: number | null; predictedClass?: Severity; rank?: number;
+    priorityScore?: number | null; priorityLevel?: PriorityLevel;
+  };
+}
+
+export interface InterventionMarker {
+  id: number; type: string; name: string; lon: number; lat: number; regionId: number; regionName: string; coolingC: number;
+  areaM2: number; priorityLevel: PriorityLevel; costInr: number | null;
+}
+
+export interface ReportSummary { id: number; title: string; fileName: string; fileSize: number; createdAt: string; runId: number; generatedBy: string; }
+
+export interface ShapImportance { feature: string; label: string; mean_abs_shap: number; }
+export interface ShapTaskGlobal {
+  importance: ShapImportance[]; beeswarm: { feature: string; label: string; points: { shap: number; value: number }[] }[];
+  plot: string; base_value: number | number[]; unit: string; n_explained: number;
+}
+export interface ShapGlobal {
+  runId: number;
+  shap: { global: Record<string, { regression: ShapTaskGlobal; classification: ShapTaskGlobal }>; best_model: Record<string, string> } | null;
 }

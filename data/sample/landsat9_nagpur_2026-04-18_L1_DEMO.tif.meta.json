@@ -1,0 +1,43 @@
+{
+  "is_demo": true,
+  "is_real": false,
+  "note": "SYNTHETIC DEMONSTRATION DATA - not a real satellite/ground observation",
+  "generator": "app.geospatial.demo_data",
+  "seed": 20260418,
+  "dataset_id": "demo-landsat9",
+  "name": "Landsat 9 OLI/TIRS L1 scene - Nagpur (synthetic demo)",
+  "data_type": "landsat",
+  "source": "Synthetic replica of a Landsat 9 Collection 2 Level-1 scene (USGS EarthExplorer format)",
+  "collection_date": "2026-04-18",
+  "coverage": "Nagpur Municipal Corporation area and periphery, 30 m, UTM 44N",
+  "file_format": "GeoTIFF",
+  "landsat_params": {
+    "SPACECRAFT_ID": "LANDSAT_9 (synthetic replica)",
+    "SENSOR_ID": "OLI_TIRS",
+    "PROCESSING_LEVEL": "L1TP",
+    "PRODUCT_LEVEL": "L1",
+    "DATE_ACQUIRED": "2026-04-18",
+    "SCENE_CENTER_TIME": "05:11:42Z",
+    "WRS_PATH": 144,
+    "WRS_ROW": 45,
+    "SUN_ELEVATION": 66.2,
+    "SUN_AZIMUTH": 108.7,
+    "REFLECTANCE_MULT": 2e-05,
+    "REFLECTANCE_ADD": -0.1,
+    "RADIANCE_MULT_B10": 0.0003342,
+    "RADIANCE_ADD_B10": 0.1,
+    "K1_CONSTANT_BAND_10": 774.8853,
+    "K2_CONSTANT_BAND_10": 1321.0789,
+    "BAND_ORDER": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "B7",
+      "B10"
+    ]
+  },
+  "file_name": "landsat9_nagpur_2026-04-18_L1_DEMO.tif",
+  "file_size": 9203210
+}

@@ -1,0 +1,127 @@
+{
+ "indicators": {
+  "lst": {
+   "mean": 41.4635800294502,
+   "min": 28.454144989789786,
+   "max": 49.36877647732312,
+   "std": 3.8757259465658027,
+   "p10": 36.07410569413548,
+   "p90": 45.829141478601
+  },
+  "ndvi": {
+   "mean": 0.3304320252473536,
+   "min": -0.3429007923382261,
+   "max": 0.8269471829302198,
+   "std": 0.1740907306511896,
+   "p10": 0.15109312796262717,
+   "p90": 0.5871954623772783
+  },
+  "ndbi": {
+   "mean": 0.01805530983738832,
+   "min": -0.38271791313590137,
+   "max": 0.176268282303656,
+   "std": 0.12040850175458247,
+   "p10": -0.1679805174531215,
+   "p90": 0.12711537883844035
+  },
+  "ndwi": {
+   "mean": -0.4048796794756359,
+   "min": -0.7407558020204882,
+   "max": 0.5298131523950558,
+   "std": 0.14987370876358133,
+   "p10": -0.5962914484438765,
+   "p90": -0.2304697105415465
+  },
+  "albedo": {
+   "mean": 0.1779685617946619,
+   "min": 0.039703552665862334,
+   "max": 0.21517680902130398,
+   "std": 0.01995130569672573,
+   "p10": 0.1602592366965335,
+   "p90": 0.21099492289404972
+  }
+ },
+ "lulc_distribution": [
+  {
+   "class_id": 1,
+   "label": "Water",
+   "fraction": 0.0071,
+   "mean_lst": 29.235806450843008
+  },
+  {
+   "class_id": 2,
+   "label": "Dense Vegetation / Forest",
+   "fraction": 0.0494,
+   "mean_lst": 32.417865738049656
+  },
+  {
+   "class_id": 3,
+   "label": "Urban Green / Sparse Vegetation",
+   "fraction": 0.0977,
+   "mean_lst": 36.411341222909755
+  },
+  {
+   "class_id": 4,
+   "label": "Agriculture / Cropland",
+   "fraction": 0.4008,
+   "mean_lst": 41.010096367281534
+  },
+  {
+   "class_id": 5,
+   "label": "Barren / Open Land",
+   "fraction": 0.1689,
+   "mean_lst": 43.75779376518846
+  },
+  {
+   "class_id": 6,
+   "label": "Residential Built-up",
+   "fraction": 0.1346,
+   "mean_lst": 42.90504700992491
+  },
+  {
+   "class_id": 7,
+   "label": "Commercial / Dense Built-up",
+   "fraction": 0.1146,
+   "mean_lst": 46.17685397469857
+  },
+  {
+   "class_id": 8,
+   "label": "Industrial",
+   "fraction": 0.0269,
+   "mean_lst": 44.649255953246254
+  }
+ ],
+ "n_regions": 2346,
+ "vegetation_coverage_pct": 14.71,
+ "total_population": 1622000,
+ "quality": {
+  "lst_method": "Single-channel: B10 radiance -> brightness temperature -> NDVI-threshold emissivity correction",
+  "ndvi": {
+   "gap_filled_pixels": 144,
+   "outliers_winsorised": 234,
+   "valid_pixels": 58381
+  },
+  "ndbi": {
+   "gap_filled_pixels": 144,
+   "outliers_winsorised": 234,
+   "valid_pixels": 58381
+  },
+  "ndwi": {
+   "gap_filled_pixels": 144,
+   "outliers_winsorised": 234,
+   "valid_pixels": 58381
+  },
+  "albedo": {
+   "gap_filled_pixels": 144,
+   "outliers_winsorised": 234,
+   "valid_pixels": 58381
+  },
+  "lst": {
+   "gap_filled_pixels": 144,
+   "outliers_winsorised": 234,
+   "valid_pixels": 58381
+  },
+  "lulc_source": "classified LULC dataset (gaps filled from index-based rules)"
+ },
+ "elapsed_seconds": 0.73
+}

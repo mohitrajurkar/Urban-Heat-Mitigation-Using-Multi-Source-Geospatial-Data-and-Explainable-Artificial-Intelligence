@@ -1,0 +1,16 @@
+{
+  "is_demo": true,
+  "is_real": false,
+  "note": "SYNTHETIC DEMONSTRATION DATA - not a real satellite/ground observation",
+  "generator": "app.geospatial.demo_data",
+  "seed": 20260418,
+  "dataset_id": "demo-boundary",
+  "name": "Nagpur study area boundary",
+  "data_type": "boundary",
+  "source": "Rectangular analysis extent defined for this project",
+  "collection_date": "2026-01-01",
+  "coverage": "78.96-79.20 E, 21.04-21.24 N",
+  "file_format": "GeoJSON",
+  "file_name": "nagpur_study_area_boundary.geojson",
+  "file_size": 283
+}
